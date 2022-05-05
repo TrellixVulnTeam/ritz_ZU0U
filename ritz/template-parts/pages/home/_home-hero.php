@@ -34,8 +34,7 @@ $global_socials = get_field( 'global_socials', 'theme_settings' );
 					if ( have_rows( 'social_icons', 'theme_settings' ) ):
 						foreach ( $socials as $social ):
 							if ( $global_socials[ $social ] ):
-								$link
-									= $global_socials[ $social ]['link']['url'];
+								$link = $global_socials[ $social ]['link']['url'];
 								$icon = $global_socials[ $social ]['icon'];
 								?>
                                 <li class="home__hero-card-socials-list-item list-group-item border-0 rounded-0 p-0 bg-transparent ml-2">

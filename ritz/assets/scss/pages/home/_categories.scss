@@ -1,0 +1,17 @@
+.home {
+  &__categories {
+    margin-top: -5%;
+
+    &-row {
+      &-col {
+        padding: calc(var(--bs-gutter-x) * .5);
+
+        &-card {
+          polyline {
+            stroke: $color-white;
+          }
+        }
+      }
+    }
+  }
+}

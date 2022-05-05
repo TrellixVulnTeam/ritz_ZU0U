@@ -46,5 +46,10 @@ if (function_exists('acf_add_options_page')) {
         'icon_url'      => 'dashicons-schedule',
         'redirect'      => false
     ));
+	acf_add_options_sub_page(array(
+		'page_title' 	=> 'Favorites products',
+		'menu_title'	=> 'Favorites products',
+		'parent_slug'	=> 'theme_settings',
+	));
 
 }
