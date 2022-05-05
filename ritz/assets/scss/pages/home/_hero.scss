@@ -3,13 +3,17 @@
 
 
     &-card {
+      &-img-overlay {
+        height: fit-content;
+      }
+
       &-subtitle {
 
         span {
           position: relative;
           font-style: italic;
-
           padding: 4px 15px;
+          z-index: 1;
 
           &::before {
             content: "";
@@ -21,6 +25,7 @@
             width: 100%;
             left: 0;
             top: 0;
+            z-index: -1;
           }
 
         }
@@ -28,7 +33,8 @@
 
       &-socials {
         top: unset;
-bottom: 10%;
+        bottom: 10%;
+
         &-list {
 
 
