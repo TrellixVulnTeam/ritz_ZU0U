@@ -137,3 +137,10 @@ add_action( 'wp_print_styles', 'ritz_deregister_styles', 100 );
 function ritz_deregister_styles()    {
 	wp_deregister_style( 'wp-emoji-release' );
 }
+
+function cc_mime_types($mimes) {
+	$mimes['svg'] = 'image/svg+xml';
+	return $mimes;
+}
+add_filter('upload_mimes', 'cc_mime_types');
+define( 'ALLOW_UNFILTERED_UPLOADS', true );
