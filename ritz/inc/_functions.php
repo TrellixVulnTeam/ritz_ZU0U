@@ -144,3 +144,31 @@ function cc_mime_types($mimes) {
 }
 add_filter('upload_mimes', 'cc_mime_types');
 define( 'ALLOW_UNFILTERED_UPLOADS', true );
+
+
+/**
+ * Menu Links
+*/
+
+
+function _namespace_menu_item_class( $classes, $item ) {
+	$classes[] = "nav-item ";
+	return $classes;
+}
+
+add_filter( 'nav_menu_css_class' , '_namespace_menu_item_class' , 10, 2 );
+function _namespace_modify_menuclass($ulclass) {
+	return preg_replace('/<a /', '<a class="nav-link"', $ulclass);
+}
+
+add_filter('wp_nav_menu', '_namespace_modify_menuclass');
+
+function submenu_class($menu) {
+
+	$menu = preg_replace('/ class="sub-menu"/','/ class="sub-menu dropdown-menu border-0 rounded-0" /',$menu);
+
+	return $menu;
+
+}
+
+add_filter('wp_nav_menu','submenu_class');
