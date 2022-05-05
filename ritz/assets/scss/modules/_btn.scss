@@ -1,0 +1,39 @@
+/**
+ * Classes Buttons
+ *
+ * btn
+ *
+ */
+
+.btn, .button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0px 30px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 14px;
+  border-radius: 4$px;
+  text-decoration: none;
+  border: 2px solid transparent;
+  text-transform: uppercase;
+  height: 50px;
+  letter-spacing: -0.02em;
+  transition: all 0.12s linear;
+  text-align: center;
+
+
+  span {
+    position: relative;
+    top: 2px;
+  }
+
+
+  svg {
+    margin: 0 0 0 8px;
+  }
+
+}
+
+
