@@ -1,7 +1,10 @@
 <?php
 // the query
+$posts_count = get_field( 'posts_settings', 'post_settings' );
+//$posts_count = get_option( 'journals_count', 'post_settings' );
+//print_r( $posts_count['journals_count'] );
 $the_query = new WP_Query( array(
-	'posts_per_page' => 3,
+	'posts_per_page' => $posts_count['journals_count'],
 ) );
 ?>
 
@@ -20,7 +23,8 @@ $the_query = new WP_Query( array(
                     <div class="section__favorites-card-deck card-deck d-flex bg-transparent">
 
 						<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-                            <div class="section__favorites-card card border-0 rounded-0 col-4 col bg-transparent">
+                            <div class="section__favorites-card card border-0 rounded-0
+                            <?php if ( ( $posts_count['journals_count'] == 1 ) ):echo 'col-12';elseif ( ( $posts_count['journals_count'] == 2 ) ):echo 'col-6';elseif ( ( $posts_count['journals_count'] == 3 ) ):echo 'col-4';elseif ( ( $posts_count['journals_count'] == 4 ) ):echo 'col-3';else:echo 'col-4';endif; ?> col bg-transparent">
                                 <a href="<?= get_permalink() ?>"
                                    target="_blank">
 									<?php the_post_thumbnail( 'post-thumbnail',
