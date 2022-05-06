@@ -22,8 +22,11 @@
   letter-spacing: -0.02em;
   transition: all 0.12s linear;
   text-align: center;
-background-color: $color-black;
+  background-color: $color-black;
   color: $color-white;
+&:hover{
+  color: rgba($color-white,.8);
+}
   span {
     position: relative;
     top: 2px;

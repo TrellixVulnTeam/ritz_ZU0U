@@ -1,0 +1,38 @@
+.section {
+
+  &__favorites {
+    &-card {
+
+      padding: calc(var(--bs-gutter-x) * .5);
+
+      &-text{
+
+        span{
+          position: relative;
+          font-style: italic;
+          z-index: 1;
+          padding: 4px 15px;
+          color: $color-white;
+          font-weight: 400;
+
+          &::before {
+            content: "";
+            transform: skew(-35deg);
+            background-color: $background-red;
+            position: absolute;
+            border-radius: 2px;
+            height: 100%;
+            width: 100%;
+            left: 0;
+            top: 0;
+            z-index: -1;
+          }        }
+
+        small{
+            margin-left: 5%;
+          color: rgba($color-black,.6);
+          }
+      }
+    }
+  }
+}
