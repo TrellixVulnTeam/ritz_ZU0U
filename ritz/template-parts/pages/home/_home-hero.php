@@ -16,7 +16,7 @@ $socials  = $field['socials'];
 $global_socials = get_field( 'global_socials', 'theme_settings' );
 ?>
 
-<section class="home__hero section">
+<section class="home__hero section no-p">
     <div class="home__hero-card card bg-dark text-white border-0">
         <img src="<?= $bg_image['url'] ?>" class="card-img border-0 rounded-0"
              alt="<?= $bg_image['alt'] ?>">

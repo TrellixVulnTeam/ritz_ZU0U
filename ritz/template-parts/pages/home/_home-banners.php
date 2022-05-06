@@ -9,7 +9,7 @@ defined( 'ABSPATH' ) || exit;
  */
 $field = get_query_var( 'home_field' );
 get_template_part( 'template-parts/parts/banners/_part-banner'
-                   ,$field['banners'] );
+	, $field['banners'] );
 ?>
 
 

@@ -246,3 +246,37 @@ if ( ! function_exists( 'ritz_woocommerce_header_cart' ) ) {
 		<?php
 	}
 }
+/**
+ *Creating custom product type
+ */
+add_filter( 'product_type_selector', 'add_ritz_performance_touring_product_type' );
+
+function add_ritz_performance_touring_product_type( $product_types ){
+	$product_types[ 'ritz_performance_touring' ] = 'Performance Touring';
+	return $product_types;
+}
+
+add_action( 'init', 'create_ritz_performance_touring_product_class' );
+add_filter( 'woocommerce_product_class', 'load_ritz_performance_touring_product_class',10,2);
+
+function create_ritz_performance_touring_product_class(){
+	class WC_Product_Ritz_Performance_Touring extends WC_Product {
+		public function get_type() {
+			return 'ritz_performance_touring'; // so you can use $product = wc_get_product(); $product->get_type()
+		}
+	}
+}
+
+function load_ritz_performance_touring_product_class( $php_classname, $product_type ) {
+	if ( $product_type == 'ritz_performance_touring' ) {
+		$php_classname = 'WC_Product_Ritz_Performance_Touring';
+	}
+	return $php_classname;
+}
+add_filter('woocommerce_product_data_tabs', 'product_data_tabs' );
+function product_data_tabs( $tabs ){
+
+	$tabs['attribute']['class'][] = 'hide_if_ritz_performance_touring';
+	return $tabs;
+
+}

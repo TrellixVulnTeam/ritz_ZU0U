@@ -39,17 +39,48 @@ const AllPage = function () {
                 $dropdown.off("mouseenter mouseleave");
             }
         });
+    }
 
-        /**
-         * Init
-         */
-        return {
-            init: function () {
-                Header();
-            }
-        };
+    /**
+     * Slider
+     * @constructor
+     */
+    const Favorites = function () {
+        const swiper = new Swiper(".mySwiper", {
+            slidesPerView: 4,
+            spaceBetween: 32,
+            loopFillGroupWithBlank: true,
+            slidesPerGroup: 4,
+            loop: true,
+
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+
 
     }
+
+    /**
+     * Init
+     */
+    return {
+        init: function () {
+            Header();
+            Favorites();
+
+        }
+    };
+
 }();
 
 /**
@@ -57,7 +88,6 @@ const AllPage = function () {
  */
 jQuery(document).ready(function () {
     AllPage.init();
-    HomePage.init();
 
 });
 
