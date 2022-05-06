@@ -1,4 +1,5 @@
 <?php
+defined( 'ABSPATH' ) || exit;
 
 
 function add_custom_option_page() {
@@ -24,3 +25,25 @@ function ritz_ref_page_callback() {
     </div>
 	<?php
 }
+function gt_get_post_view() {
+	$count = get_post_meta( get_the_ID(), 'post_views_count', true );
+	return "$count views";
+}
+function gt_set_post_view() {
+	$key = 'post_views_count';
+	$post_id = get_the_ID();
+	$count = (int) get_post_meta( $post_id, $key, true );
+	$count++;
+	update_post_meta( $post_id, $key, $count );
+}
+function gt_posts_column_views( $columns ) {
+	$columns['post_views'] = '<span class="dashicons dashicons-chart-bar" title="Views"><span class="screen-reader-text">Views</span></span>';
+	return $columns;
+}
+function gt_posts_custom_column_views( $column ) {
+	if ( $column === 'post_views') {
+		echo gt_get_post_view();
+	}
+}
+add_filter( 'manage_posts_columns', 'gt_posts_column_views' );
+add_action( 'manage_posts_custom_column', 'gt_posts_custom_column_views' );
