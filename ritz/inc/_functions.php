@@ -110,7 +110,7 @@ function ritz_init() {
 
 	ritz_register_post_types();
 
-
+	register_my_widgets();
 
 	if ( class_exists( 'MultiPostThumbnails' ) ) {
 		new MultiPostThumbnails(

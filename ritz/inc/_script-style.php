@@ -42,11 +42,3 @@ function ritz_scripts() {
 	wp_register_script( 'bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js', ['jquery'], '3.4.2', true );
 
 }
-
-function enqueuing_admin_scripts(){
-
-	wp_enqueue_script('admin-js-file', get_template_directory_uri().'/js/admin.js');
-
-}
-
-add_action( 'admin_enqueue_scripts', 'enqueuing_admin_scripts' );

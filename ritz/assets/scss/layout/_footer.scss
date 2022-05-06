@@ -1,11 +1,72 @@
 .footer {
-  $border-width: 1px;
-  $border-color: #E9E9E9;
-  $border: $border-width solid $border-color;
+  &__row {
+    .widget-title {
+      color: $color-black;
+      font-weight: 400;
+    }
 
-  background-color: $background-grey-f6;
-  flex: 0 0 auto;
+    a {
+      color: rgba($color-black, .6);
+      padding: 0.2rem 0;
 
+      &:hover {
+        color: rgba($color-black, .8);
+
+      }
+
+    }
+
+    p {
+      margin-bottom: .4rem;
+    }
+  }
+
+  &__hr {
+    position: relative;
+
+    hr {
+      position: absolute;
+      width: 120%;
+      left: -10%;
+    }
+  }
+
+  &__subfooter {
+    &-left {
+      li {
+        flex-basis: 3%;
+        margin: 0 3%;
+
+        a {
+          width: 100%;
+          height: 100%;
+          display: block;
+          fill: $color-black;
+
+          svg {
+            height: 100%;
+            width: 100%;
+
+          }
+        }
+      }
+    }
+
+
+    &-right {
+      a {
+
+
+        svg {
+          height: 100%;
+          width: 100%;
+          display: block;
+        }
+      }
+
+    }
+
+  }
 }
 
 

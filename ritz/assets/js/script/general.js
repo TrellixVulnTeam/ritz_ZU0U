@@ -47,24 +47,22 @@ const AllPage = function () {
      */
     const Favorites = function () {
         const swiper = new Swiper(".mySwiper", {
-            slidesPerView: 4,
-            spaceBetween: 32,
-            loopFillGroupWithBlank: true,
-            slidesPerGroup: 4,
-            loop: true,
-
             autoplay: {
-                delay: 2500,
-                disableOnInteraction: false,
+                delay: 5000,
             },
+            loop:true,
+            spaceBetween: 32,
+            slidesPerView: 4,
+            slidesPerGroup: 1,
+            // autoplay: {
+            //     delay: 2500,
+            //     disableOnInteraction: false,
+            // },
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
             },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
+
         });
 
 
