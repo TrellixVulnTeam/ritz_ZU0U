@@ -55,7 +55,7 @@ if (function_exists('acf_add_options_page')) {
 	));
 
 
-	$parent = acf_add_options_page(array(
+	 acf_add_options_page(array(
 		'page_title'    => __('Post Settings', 'ritz'),
 		'menu_title'    => __('Post Settings', 'ritz'),
 		'menu_slug'     => 'post_settings',
