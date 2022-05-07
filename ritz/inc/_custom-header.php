@@ -10,7 +10,7 @@ function ritz_header_TagHeaderOpen() {
 	?>
     <!-- HEADER -->
     <header class="header <?= ( in_array( 'home', $classes )
-		? 'position-absolute t-white' : 't-black border-bottom pb-2' ) ?> w-100">
+		? ' t-white' : 't-black border-bottom pb-2' ) ?> w-100">
 	<?php
 }
 
@@ -47,16 +47,17 @@ function ritz_header_TagHeaderInner() {
 											'theme_settings' ) ) ?>"
                                     alt="<?= get_bloginfo( 'name' ) ?>"
                                     title="<?= get_bloginfo( 'name' ) ?>"
+                                    class="mobile-hide desc-display"
+
+                            >
+                            <img
+                                    src="<?= get_field( 'alt_logo', 'theme_settings' ) ?>"
+                                    alt="<?= get_bloginfo( 'name' ) ?>"
+                                    title="<?= get_bloginfo( 'name' ) ?>"
+                                    class="mobile-display desc-hide"
                             >
                         </a>
-                        <button class="navbar-toggler" type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#navbarSupportedContent"
-                                aria-controls="navbarSupportedContent"
-                                aria-expanded="false"
-                                aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+
                         <!-- menu -->
 						<?php
 						/*
@@ -97,6 +98,16 @@ function ritz_header_TagHeaderInner() {
                         </a>
                     </li>
                 </ul>
+                <div class="navbar-light">
+                <button class="navbar-toggler border-0" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                </div>
             </div>
             <!-- end right -->
 

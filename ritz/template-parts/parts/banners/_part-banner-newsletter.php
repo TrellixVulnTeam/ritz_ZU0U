@@ -11,7 +11,7 @@ if ( get_field( 'newsletter_banner', 'theme_settings' ) ):
                  style="background: url('<?php the_field( 'newsletter_banner',
 				     'theme_settings' ) ?>');background-size:cover;background-repeat: no-repeat ">
 
-                <div class="col-4 section__newsletter-row-card card bg-transparent border-0 rounded-0">
+                <div class="col-12 col-md-4 section__newsletter-row-card card bg-transparent border-0 rounded-0">
                     <div class="section__newsletter-row-card-body card-body">
                         <h5 class="section__newsletter-row-card-title card-title text-white"><?php the_field( 'newsletter_title',
 								'theme_settings' ) ?></h5>
@@ -19,7 +19,7 @@ if ( get_field( 'newsletter_banner', 'theme_settings' ) ):
 								'theme_settings' ) ?></p>
                     </div>
                 </div>
-                <div class="col-5 card section__newsletter-row-card bg-transparent border-0 rounded-0">
+                <div class="col-12 col-md-5 card section__newsletter-row-card bg-transparent border-0 rounded-0">
                     <div class="card-body section__newsletter-row-card-body ">
                         <form>
                             <div class="form-group">

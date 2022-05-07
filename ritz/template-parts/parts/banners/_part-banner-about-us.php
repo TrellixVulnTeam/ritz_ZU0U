@@ -6,7 +6,7 @@ $text     = get_field( 'about_us_text', 'theme_settings' );
 $button   = get_field( 'about_us_button', 'theme_settings' );
 ?>
 <section class="section__about-us section">
-    <div class="section__about-us-card card bg-dark text-white border-0">
+    <div class="section__about-us-card card text-white border-0">
         <img src="<?= $bg_image['url'] ?>" class="card-img border-0 rounded-0"
              alt="<?= $bg_image['alt'] ?>">
         <div class="section__about-us-overlay p-5 card-img-overlay bg-white">

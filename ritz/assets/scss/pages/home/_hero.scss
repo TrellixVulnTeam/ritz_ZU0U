@@ -1,11 +1,33 @@
 .home {
   &__hero {
-
+    @include media(sm) {
+      height: 90vh;
+    }
 
     &-card {
+      @include media(sm) {
+
+        height: 100%;
+
+      }
+
+      img {
+        @include media(sm) {
+
+          object-fit: cover;
+          height: 100%;
+          width: 100%;
+        }
+      }
+
       &-img-overlay {
         height: fit-content;
-      }
+        width: 50%;
+        top: 50%;
+        @include media(sm) {
+          width: 100%;
+        }
+        }
 
       &-subtitle {
 
@@ -34,6 +56,9 @@
       &-socials {
         top: unset;
         bottom: 10%;
+        @include media(sm) {
+          display: none;
+        }
 
         &-list {
 

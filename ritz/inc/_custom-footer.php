@@ -28,7 +28,7 @@ function ritz_footer_TagFooterInner() {
 	?>
 
     <div class="footer__row row">
-        <div class="footer__row-col col-4">
+        <div class="footer__row-col col-12 col-md-4">
             <img class="mb-2" src="<?= $logo ?>"
                  alt="">
         </div>
@@ -36,7 +36,7 @@ function ritz_footer_TagFooterInner() {
 
 		if ( function_exists( 'dynamic_sidebar' )
 		) : ?>
-            <div class="footer__row-col col-2">
+            <div class="footer__row-col col-md-2 col-6">
 
 				<?php
 				dynamic_sidebar( 'footer-col-1' );
@@ -48,7 +48,7 @@ function ritz_footer_TagFooterInner() {
 		if ( function_exists( 'dynamic_sidebar' )
 
 		) : ?>
-            <div class=" footer__row-col col-2">
+            <div class=" footer__row-col col-md-2 col-6">
 
 				<?php
 				dynamic_sidebar( 'footer-col-2' );
@@ -59,7 +59,7 @@ function ritz_footer_TagFooterInner() {
 
 		if ( function_exists( 'dynamic_sidebar' )
 		) : ?>
-            <div class="footer__row-col col-2">
+            <div class="footer__row-col col-md-2 col-6">
 
 				<?php
 				dynamic_sidebar( 'footer-col-3' );
@@ -70,7 +70,7 @@ function ritz_footer_TagFooterInner() {
 		if ( function_exists( 'dynamic_sidebar' )
 		) :
 			?>
-            <div class="footer__row-col col-2">
+            <div class="footer__row-col col-md-2 col-6">
 
 				<?php
 				dynamic_sidebar( 'footer-col-4' );
@@ -85,9 +85,9 @@ function ritz_footer_TagFooterInner() {
         <hr class="position-absolute">
     </div>
     <div class="footer__subfooter d-flex py-4 my-4">
-        <div class="col col-9 footer__subfooter-left d-flex align-items-center ">
+        <div class="col-12 col-md-9 footer__subfooter-left d-flex align-items-center ">
             <p class="m-0"><?= __( '©2022 Ritz Kayaks Marine', 'ritz' ) ?></p>
-            <ul class="list-unstyled d-flex col-auto">
+            <ul class="list-unstyled  col-auto">
 				<?php
 				if ( have_rows( 'social_icons', 'theme_settings' ) ):
 					foreach ( $global_socials as $social ):

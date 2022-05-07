@@ -541,7 +541,6 @@ function related_productType() {
  */
 add_filter( 'woocommerce_single_product_image_gallery_classes', function( $classes ) {
 	$classes[] .= 'd-flex';
-	$classes[] .= 'flex-row-reverse';
 
 	return $classes;
 } );

@@ -20,7 +20,7 @@ $global_socials = get_field( 'global_socials', 'theme_settings' );
     <div class="home__hero-card card bg-dark text-white border-0">
         <img src="<?= $bg_image['url'] ?>" class="card-img border-0 rounded-0"
              alt="<?= $bg_image['alt'] ?>">
-        <div class="home__hero-card-img-overlay card-img-overlay border-0 text-center top-50 w-50 mx-auto">
+        <div class="home__hero-card-img-overlay card-img-overlay border-0 text-center  mx-auto">
             <h5 class="card-subtitle text-white home__hero-card-subtitle">
                 <span><?= $subtitle ?></span></h5>
             <h1 class="card-title text-white home__hero-card-title"><?= $title ?></h1>

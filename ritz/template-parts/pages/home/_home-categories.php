@@ -24,7 +24,7 @@ $categories = $field['categories_grid'];
 					$term = get_term_by( 'id', $category, 'product_cat' );
 					$link = get_term_link( $category, 'product_cat' );
 					?>
-                    <div class="home__categories-row-col col-6  ">
+                    <div class="home__categories-row-col col-md-6 col-sm-12 ">
 	                    <a href="<?=$link?>" target="_blank">
                         <div class="home__categories-row-col-card card bg-dark text-white border-0 rounded-0">
                             <img src="<?= $image ?>" alt="" width="400"

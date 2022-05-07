@@ -1,4 +1,33 @@
-.header{
+.header {
+  @include media(md) {
+    background-color: $color-white;
+  }
+
+  svg {
+    circle, line, path, polyline {
+
+      @include media(md) {
+        stroke: $color-black;
+      }
+    }
+  }
+
+  img {
+    &.desc-display {
+      display: block;
+      @include media(md) {
+        display: none;
+      }
+    }
+
+    &.mobile-display {
+      display: none;
+      @include media(md) {
+        display: block;
+      }
+    }
+
+  }
 
   z-index: 5;
 
@@ -17,15 +46,79 @@
     margin-top: 0;
   }
 
+  .toggle-nav {
+    display: none;
+  }
+
+  @include media(md) {
+    .toggle-nav {
+      display: inline-block !important;
+      float: right;
+      margin: 25px;
+      font-size: 2em;
+      transition: color linear 0.15s;
+    }
+
+    a.toggle-nav:link,
+    a.toggle-nav:visited,
+    a.toggle-nav:hover,
+    a.toggle-nav:active {
+      text-decoration: none;
+      color: #fff;
+    }
+    .toggle-nav {
+      display: inline-block;
+    }
+  }
+
+  &__row {
+    justify-content: space-between;
+
+    &-right {
+      @include media(md) {
+        align-items: center;
+        display: flex;
+      }
+    }
+  }
+
+
+  &__menu-list {
+    @include media(md) {
+      position: absolute;
+      width: 100%;
+      display: none;
+      left: 0;
+      top: 100%;
+      background-color: $color-white;
+
+
+    }
+
+
+
+  }
+
+  nav {
+    @include media(md) {
+      position: unset;
+    }
+  }
 }
+
 .t-white {
+  position: absolute;
 
   .header__row {
     &-left {
       .menu-item {
         .nav-link {
           color: $color-white;
-
+          @include media(md) {
+            width: 90%;
+            margin: 0 auto;
+            color: $color-black;
+          }
           &:hover {
 
             border-bottom: 3px $background-red solid;
@@ -44,12 +137,13 @@
     }
 
     &-right {
-      .counter{
+      .counter {
         padding: 3px;
         border-radius: 4px;
-        color:$color-white;
+        color: $color-white;
         background-color: $background-red;
       }
+
       .header-icon {
         polygon {
           stroke: none;
@@ -87,12 +181,13 @@
     }
 
     &-right {
-      .counter{
+      .counter {
         padding: 3px;
         border-radius: 4px;
-        color:$color-white;
+        color: $color-white;
         background-color: $background-red;
       }
+
       .header-icon {
         polygon {
           stroke: none;

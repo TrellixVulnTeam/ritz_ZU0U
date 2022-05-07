@@ -14,31 +14,11 @@ const AllPage = function () {
         /**
          * Navbar Menu
          */
-        const $dropdown = $(".dropdown");
-        const $dropdownToggle = $(".dropdown-toggle");
-        const $dropdownMenu = $(".dropdown-menu");
-        const showClass = "show";
+       $('.navbar-toggler').on('click',function (){
+         $('#menu-main-menu').toggleClass('d-block');
+       });
 
-        $(window).on("load resize", function () {
-            if (this.matchMedia("(min-width: 768px)").matches) {
-                $dropdown.hover(
-                    function () {
-                        const $this = $(this);
-                        $this.addClass(showClass);
-                        $this.find($dropdownToggle).attr("aria-expanded", "true");
-                        $this.find($dropdownMenu).addClass(showClass);
-                    },
-                    function () {
-                        const $this = $(this);
-                        $this.removeClass(showClass);
-                        $this.find($dropdownToggle).attr("aria-expanded", "false");
-                        $this.find($dropdownMenu).removeClass(showClass);
-                    }
-                );
-            } else {
-                $dropdown.off("mouseenter mouseleave");
-            }
-        });
+
     }
 
     /**
@@ -51,14 +31,22 @@ const AllPage = function () {
                 delay: 5000,
             },
             loop: true,
-            spaceBetween: 32,
-            slidesPerView: 4,
+            slidesPerView: 2,
+            spaceBetween: 16,
             slidesPerGroup: 1,
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
             },
+            breakpoints: {
 
+                768: {
+                    slidesPerView: 4,
+                    slidesPerGroup: 1,
+                    spaceBetween: 32,
+
+                }
+            }
         });
 
 
@@ -69,10 +57,18 @@ const AllPage = function () {
                 delay: 5000,
             },
             loop: true,
-            spaceBetween: 32,
-            slidesPerView: 4,
+            spaceBetween: 16,
+            slidesPerView: 2,
             slidesPerGroup: 1,
+            breakpoints: {
 
+                768: {
+                    slidesPerView: 4,
+                    slidesPerGroup: 1,
+                    spaceBetween: 32,
+
+                }
+            },
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",

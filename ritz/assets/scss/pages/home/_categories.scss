@@ -1,7 +1,10 @@
 .home {
   &__categories {
     margin-top: -10%;
+    @include media(sm) {
+      margin-top: -30%;
 
+    }
     &-row {
       &-col {
         padding: calc(var(--bs-gutter-x) * .5);
