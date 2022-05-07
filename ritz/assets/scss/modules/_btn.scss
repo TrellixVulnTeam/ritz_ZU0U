@@ -11,10 +11,10 @@
   justify-content: center;
   margin: 0;
   padding: 0px 30px;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 16px;
   line-height: 14px;
-  border-radius: 4$px;
+  border-radius: 4px;
   text-decoration: none;
   border: 2px solid transparent;
   text-transform: uppercase;
@@ -22,8 +22,11 @@
   letter-spacing: -0.02em;
   transition: all 0.12s linear;
   text-align: center;
-
-
+  background-color: $color-black;
+  color: $color-white;
+&:hover{
+  color: rgba($color-white,.8);
+}
   span {
     position: relative;
     top: 2px;

@@ -11,21 +11,20 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'ritz' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'ritz' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'ritz' ), 'ritz', '<a href="http://dan.lavron.info/">ReKKi</a>' );
-				?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+
+<?php
+/**
+ * footer_parts hook
+ *
+ * @hooked ritz_footer_TagFooterForm - 10
+ * @hooked ritz_footer_TagFooterOpen - 20
+ * @hooked ritz_footer_TagFooterInner - 30
+ * @hooked ritz_footer_TagFooterClose - 100
+ *
+ */
+do_action('footer_parts');
+?>
+
 </div><!-- #page -->
 
 <?php wp_footer(); ?>

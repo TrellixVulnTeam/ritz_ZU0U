@@ -8,6 +8,7 @@
  */
 
 get_header();
+gt_set_post_view();
 ?>
 
 	<main id="primary" class="site-main">

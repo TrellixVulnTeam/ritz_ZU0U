@@ -36,7 +36,7 @@ if (function_exists('acf_add_options_page')) {
     /**
      * Theme Settings
      */
-    acf_add_options_page(array(
+	$parent = acf_add_options_page(array(
         'page_title'    => __('Theme Settings', 'ritz'),
         'menu_title'    => __('Theme Settings', 'ritz'),
         'menu_slug'     => 'theme_settings',
@@ -46,5 +46,23 @@ if (function_exists('acf_add_options_page')) {
         'icon_url'      => 'dashicons-schedule',
         'redirect'      => false
     ));
+	$child = acf_add_options_sub_page(array(
+		'page_title' 	=> 'Favorites products',
+		'menu_title'	=> 'Favorites products',
+		'parent_slug' => $parent['menu_slug'],
+		'post_id'       => 'favorite_products',
 
+	));
+
+
+	 acf_add_options_page(array(
+		'page_title'    => __('Post Settings', 'ritz'),
+		'menu_title'    => __('Post Settings', 'ritz'),
+		'menu_slug'     => 'post_settings',
+		'capability'    => 'edit_posts',
+		'position'      => '15.54',
+		'post_id'       => 'post_settings',
+		'icon_url'      => 'dashicons-schedule',
+		'redirect'      => false
+	));
 }

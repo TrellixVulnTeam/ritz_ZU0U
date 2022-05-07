@@ -16,7 +16,7 @@
     "meow": "^10.1.2",
     "node-gyp": "^9.0.0",
     "npm-watch": "^0.7.0",
-    "swiper": "^6.5.0",
+    "swiper": "^6.8.4",
     "trim-newlines": "^4.0.2",
     "yargs": "^17.4.1"
   },
