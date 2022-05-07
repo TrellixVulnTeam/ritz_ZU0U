@@ -1,10 +1,20 @@
 .section {
   &__favorites {
+    &-row {
+
+      &-card {
 
 
-    &-row-card-text {
+        &-img {
+          border-style: solid;
+          border-color: $background-grey-f6;
+        }
 
-      color: rgba($color-black, .6);
+        &-text {
+
+          color: rgba($color-black, .6);
+        }
+      }
     }
   }
 }

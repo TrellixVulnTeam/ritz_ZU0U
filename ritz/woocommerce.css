@@ -145,11 +145,7 @@ ul.products li.product .button {
 }
 
 .single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger {
-	position: absolute;
-	top: 2em;
-	right: 1em;
-	display: block;
-	z-index: 99;
+	display: none;
 }
 
 .single-product div.product .woocommerce-product-gallery .flex-viewport {

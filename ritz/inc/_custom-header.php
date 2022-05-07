@@ -5,9 +5,12 @@ defined( 'ABSPATH' ) || exit;
  */
 add_action( 'header_parts', 'ritz_header_TagHeaderOpen', 10 );
 function ritz_header_TagHeaderOpen() {
+	$classes = get_body_class();
+
 	?>
     <!-- HEADER -->
-    <header class="header position-absolute w-100">
+    <header class="header <?= ( in_array( 'home', $classes )
+		? 'position-absolute t-white' : 't-black border-bottom pb-2' ) ?> w-100">
 	<?php
 }
 
@@ -16,6 +19,8 @@ function ritz_header_TagHeaderOpen() {
  */
 add_action( 'header_parts', 'ritz_header_TagHeaderInner', 20 );
 function ritz_header_TagHeaderInner() {
+	$classes = get_body_class();
+
 	?>
 
     <!-- container -->
@@ -35,8 +40,11 @@ function ritz_header_TagHeaderInner() {
                         <a href="<?= home_url() ?>"
                            class="header__logo navbar-brand">
                             <img
-                                    src="<?= get_field( 'logo',
-										'theme_settings' ) ?>"
+                                    src="<?= ( in_array( 'home', $classes )
+										? get_field( 'logo',
+											'theme_settings' )
+										: get_field( 'alt_logo',
+											'theme_settings' ) ) ?>"
                                     alt="<?= get_bloginfo( 'name' ) ?>"
                                     title="<?= get_bloginfo( 'name' ) ?>"
                             >
@@ -74,16 +82,20 @@ function ritz_header_TagHeaderInner() {
 
 
                 <ul class="list-group list-group-horizontal ">
-                    <li class="list-group-item bg-transparent"><a
+                    <li class="list-group-item bg-transparent border-0 rounded-0"><a
                                 href="#"><?= file_get_contents( get_stylesheet_directory()
 					                                            . "/assets/userfiles/Search.svg" ); ?></a>
                     </li>
-                    <li class="list-group-item bg-transparent"><a
+                    <li class="list-group-item bg-transparent border-0 rounded-0"><a
                                 href="#"><?= file_get_contents( get_stylesheet_directory()
 					                                            . "/assets/userfiles/Profile.svg" ); ?></a>
                     </li>
-                    <li class="list-group-item bg-transparent">    <a href="#"><?= file_get_contents( get_stylesheet_directory()
-                                                                                       . "/assets/userfiles/Cart.svg" ); ?></a></li>
+                    <li class="list-group-item bg-transparent border-0 rounded-0"><a
+                                href="#"><?= file_get_contents( get_stylesheet_directory()
+					                                            . "/assets/userfiles/Cart.svg" ); ?>
+                            <?= (WC()->cart->get_cart_contents_count() != 0 ?'<span class="counter">' .WC()->cart->get_cart_contents_count().'</span>':'') ?>
+                        </a>
+                    </li>
                 </ul>
             </div>
             <!-- end right -->
@@ -97,7 +109,6 @@ function ritz_header_TagHeaderInner() {
 	<?php
 }
 
-;
 /**
  * @ritz_header_TagHeaderClose
  */
@@ -109,4 +120,3 @@ function ritz_header_TagHeaderClose() {
 	<?php
 }
 
-;
