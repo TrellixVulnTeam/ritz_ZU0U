@@ -75,6 +75,15 @@
     justify-content: space-between;
 
     &-right {
+      display: flex;
+      align-items: center;
+      .navbar-light{
+        display:none;
+        @include media(md) {
+
+         display: block;
+        }
+      }
       @include media(md) {
         align-items: center;
         display: flex;
