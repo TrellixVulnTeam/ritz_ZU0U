@@ -1,0 +1,78 @@
+2022-05-07T05:56:10+00:00 CRITICAL Cannot redeclare new_excerpt_more() (previously declared in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/inc/_functions.php:183) in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/inc/_functions.php on line 188
+
+2022-05-07T05:56:10+00:00 CRITICAL Cannot redeclare new_excerpt_more() (previously declared in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/inc/_functions.php:183) in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/inc/_functions.php on line 188
+
+2022-05-07T05:56:11+00:00 CRITICAL Cannot redeclare new_excerpt_more() (previously declared in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/inc/_functions.php:183) in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/inc/_functions.php on line 188
+
+2022-05-07T06:38:35+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /Users/rekki/htdocs/ritz/wp-content/plugins/advanced-custom-fields-pro/includes/loop.php on line 210
+
+2022-05-07T06:38:46+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /Users/rekki/htdocs/ritz/wp-content/plugins/advanced-custom-fields-pro/includes/loop.php on line 210
+
+2022-05-07T06:38:54+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /Users/rekki/htdocs/ritz/wp-content/plugins/advanced-custom-fields-pro/acf.php on line 651
+
+2022-05-07T06:40:16+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /Users/rekki/htdocs/ritz/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 755
+
+2022-05-07T06:41:10+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /Users/rekki/htdocs/ritz/wp-content/plugins/advanced-custom-fields-pro/includes/loop.php on line 95
+
+2022-05-07T06:41:37+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /Users/rekki/htdocs/ritz/wp-content/plugins/advanced-custom-fields-pro/includes/loop.php on line 214
+
+2022-05-07T06:42:10+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /Users/rekki/htdocs/ritz/wp-content/plugins/advanced-custom-fields-pro/includes/loop.php on line 87
+
+2022-05-07T06:42:17+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/inc/woocommerce.php on line 433
+
+2022-05-07T06:42:40+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /Users/rekki/htdocs/ritz/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 529
+
+2022-05-07T07:06:43+00:00 CRITICAL syntax error, unexpected ':' in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/woocommerce/loop/loop-start.php on line 21
+
+2022-05-07T07:31:24+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting ';' or ',' in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/inc/woocommerce.php on line 508
+
+2022-05-07T07:31:24+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting ';' or ',' in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/inc/woocommerce.php on line 508
+
+2022-05-07T07:31:26+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting ';' or ',' in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/inc/woocommerce.php on line 508
+
+2022-05-07T07:31:26+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting ';' or ',' in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/inc/woocommerce.php on line 508
+
+2022-05-07T07:52:03+00:00 CRITICAL syntax error, unexpected 'add_filter' (T_STRING) in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/inc/woocommerce.php on line 534
+
+2022-05-07T07:52:03+00:00 CRITICAL syntax error, unexpected 'add_filter' (T_STRING) in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/inc/woocommerce.php on line 534
+
+2022-05-07T07:52:03+00:00 CRITICAL syntax error, unexpected 'add_filter' (T_STRING) in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/inc/woocommerce.php on line 534
+
+2022-05-07T13:06:46+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/woocommerce/single-product/add-to-cart/variable.php on line 37
+
+2022-05-07T13:14:18+00:00 CRITICAL syntax error, unexpected '2' (T_LNUMBER) in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/inc/woocommerce.php on line 644
+
+2022-05-07T13:14:38+00:00 CRITICAL syntax error, unexpected '2' (T_LNUMBER) in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/inc/woocommerce.php on line 644
+
+2022-05-07T13:27:50+00:00 CRITICAL Uncaught Error: Call to undefined function remove_class_action() in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/inc/woocommerce.php:644
+Stack trace:
+#0 /Users/rekki/htdocs/ritz/wp-includes/class-wp-hook.php(307): custom_variation_attribute_options_html('<select id="pa_...', Array)
+#1 /Users/rekki/htdocs/ritz/wp-includes/plugin.php(189): WP_Hook->apply_filters('<select id="pa_...', Array)
+#2 /Users/rekki/htdocs/ritz/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3122): apply_filters('woocommerce_dro...', '<select id="pa_...', Array)
+#3 /Users/rekki/htdocs/ritz/wp-content/themes/ritz/woocommerce/single-product/add-to-cart/variable.php(47): wc_dropdown_variation_attribute_options(Array)
+#4 /Users/rekki/htdocs/ritz/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Users/rekki/ht...')
+#5 /Users/rekki/htdocs/ritz/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1729): wc_get_template('single-product/...', Array)
+#6 /Users/rekki/htdocs/ritz/wp-inclu in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/inc/woocommerce.php on line 644
+
+2022-05-07T14:10:37+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::attribute_label() in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/woocommerce/single-product/add-to-cart/variable.php:22
+Stack trace:
+#0 /Users/rekki/htdocs/ritz/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Users/rekki/htdocs/ritz/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1729): wc_get_template('single-product/...', Array)
+#2 /Users/rekki/htdocs/ritz/wp-includes/class-wp-hook.php(307): woocommerce_variable_add_to_cart('')
+#3 /Users/rekki/htdocs/ritz/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 /Users/rekki/htdocs/ritz/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Users/rekki/htdocs/ritz/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1675): do_action('woocommerce_var...')
+#6 /Users/rekki/htdocs/ritz/wp-includes/class-wp-hook.php(307): woocommerce_template_single_add_to_cart('')
+#7 /Users/rekki/htdocs/ritz/wp-includes/class-wp-hook.php( in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/woocommerce/single-product/add-to-cart/variable.php on line 22
+
+2022-05-07T14:11:11+00:00 CRITICAL Uncaught Error: Call to a member function attribute_label() on null in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/woocommerce/single-product/add-to-cart/variable.php:50
+Stack trace:
+#0 /Users/rekki/htdocs/ritz/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Users/rekki/htdocs/ritz/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1729): wc_get_template('single-product/...', Array)
+#2 /Users/rekki/htdocs/ritz/wp-includes/class-wp-hook.php(307): woocommerce_variable_add_to_cart('')
+#3 /Users/rekki/htdocs/ritz/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 /Users/rekki/htdocs/ritz/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Users/rekki/htdocs/ritz/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1675): do_action('woocommerce_var...')
+#6 /Users/rekki/htdocs/ritz/wp-includes/class-wp-hook.php(307): woocommerce_template_single_add_to_cart('')
+#7 /Users/rekki/htdocs/ritz/wp-includes/class-wp-hook.php(331) in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/woocommerce/single-product/add-to-cart/variable.php on line 50
+

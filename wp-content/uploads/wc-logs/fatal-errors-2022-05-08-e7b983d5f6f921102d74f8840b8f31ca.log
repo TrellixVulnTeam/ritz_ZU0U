@@ -1,0 +1,24 @@
+2022-05-08T06:42:25+00:00 CRITICAL Uncaught Error: Call to undefined function ritz_posted_on() in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/template-parts/content.php:25
+Stack trace:
+#0 /Users/rekki/htdocs/ritz/wp-includes/template.php(772): require()
+#1 /Users/rekki/htdocs/ritz/wp-includes/template.php(716): load_template('/Users/rekki/ht...', false, Array)
+#2 /Users/rekki/htdocs/ritz/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/rekki/htdocs/ritz/wp-content/themes/ritz/single.php(20): get_template_part('template-parts/...', 'post')
+#4 /Users/rekki/htdocs/ritz/wp-includes/template-loader.php(106): include('/Users/rekki/ht...')
+#5 /Users/rekki/htdocs/ritz/wp-blog-header.php(19): require_once('/Users/rekki/ht...')
+#6 /Users/rekki/htdocs/ritz/index.php(17): require('/Users/rekki/ht...')
+#7 {main}
+  thrown in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/template-parts/content.php on line 25
+
+2022-05-08T06:44:39+00:00 CRITICAL Uncaught Error: Call to undefined function ritz_posted_on() in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/template-parts/content.php:25
+Stack trace:
+#0 /Users/rekki/htdocs/ritz/wp-includes/template.php(772): require()
+#1 /Users/rekki/htdocs/ritz/wp-includes/template.php(716): load_template('/Users/rekki/ht...', false, Array)
+#2 /Users/rekki/htdocs/ritz/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/rekki/htdocs/ritz/wp-content/themes/ritz/single.php(20): get_template_part('template-parts/...', 'post')
+#4 /Users/rekki/htdocs/ritz/wp-includes/template-loader.php(106): include('/Users/rekki/ht...')
+#5 /Users/rekki/htdocs/ritz/wp-blog-header.php(19): require_once('/Users/rekki/ht...')
+#6 /Users/rekki/htdocs/ritz/index.php(17): require('/Users/rekki/ht...')
+#7 {main}
+  thrown in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/template-parts/content.php on line 25
+
