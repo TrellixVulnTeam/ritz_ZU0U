@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="845e25dd-c67d-40a8-a1ba-af7235b1b744" name="Default Changelist" comment="whole wp fro">
+      <change beforePath="$PROJECT_DIR$/Database/ritz.sql.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/.stylelintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/404.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/archive.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/bundle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/bundle.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/awesome/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/awesome/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/awesome/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/awesome/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/awesome/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/awesome/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-Black.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-Black.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-Black.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-BlackItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-BlackItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-BlackItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-BoldItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-BoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-BoldItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-Italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-Italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-Light.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-Light.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-LightItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-LightItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-LightItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-MediumItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-MediumItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro-MediumItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamPro.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamProNarrow-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamProNarrow-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamProNarrow-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamProNarrow-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamProNarrow-Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamProNarrow-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamProNarrow-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/fonts/gotham-pro/GothamProNarrow-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/plugins/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/plugins/jquery.fancybox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/css/plugins/swiper.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/js/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/js/script/general.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/js/src/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/js/src/vendor/jquery-migrate-3.0.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/js/src/vendor/jquery.fancybox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/js/src/vendor/jquery.scrollify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/js/src/vendor/modernizr.custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/js/src/vendor/swiper-bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/scss/base/_base.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/scss/base/_fonts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/scss/base/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/scss/base/_normalize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/scss/base/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/scss/base/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/scss/general.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/scss/layout/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/scss/layout/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/scss/layout/_main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/scss/layout/bootstrap/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/scss/layout/bootstrap/grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/scss/layout/bootstrap/mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/scss/layout/bootstrap/scaffolding.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/scss/layout/bootstrap/variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/scss/layout/sections/_background.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/scss/layout/sections/_banner-keep-updated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/scss/layout/sections/_banner-newsletter.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/scss/layout/sections/_banner-shop-favorites.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/scss/layout/sections/_banner_about_us.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/scss/layout/sections/_related.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/scss/modules/_btn.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/scss/modules/_form.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/scss/modules/_swiper.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/scss/modules/_text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/scss/pages/_404.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/scss/pages/home/_categories.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/scss/pages/home/_hero.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/scss/pages/home/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/scss/pages/product/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/userfiles/Cart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/userfiles/Profile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/userfiles/Search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/userfiles/add-to-сart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/userfiles/email-arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/userfiles/left-arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/userfiles/right-arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/assets/userfiles/think-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/comments.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/front-page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/inc/_acf.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/inc/_custom-footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/inc/_custom-header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/inc/_functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/inc/_navigations.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/inc/_script-style.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/inc/customizer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/inc/jetpack.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/inc/option-page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/inc/post-types.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/inc/sidebars.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/inc/woocommerce.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/js/customizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/js/navigation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/languages/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/languages/ritz.pot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/phpcs.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/sidebar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/single.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/style-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/template-parts/content-none.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/template-parts/content-page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/template-parts/content-search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/template-parts/content.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/template-parts/pages/home/_home-banners.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/template-parts/pages/home/_home-categories.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/template-parts/pages/home/_home-hero.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/template-parts/parts/banners/_part-banner-about-us.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/template-parts/parts/banners/_part-banner-keep-updated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/template-parts/parts/banners/_part-banner-newsletter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/template-parts/parts/banners/_part-banner-shop-favorites.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/content-single-product.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/global/breadcrumb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/global/form-login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/global/quantity-input.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/global/sidebar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/global/wrapper-end.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/global/wrapper-start.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/loop/add-to-cart.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/loop/loop-end.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/loop/loop-start.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/loop/no-products-found.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/loop/orderby.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/loop/pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/loop/price.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/loop/rating.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/loop/result-count.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/loop/sale-flash.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/single-product-reviews.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/single-product.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/single-product/add-to-cart/external.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/single-product/add-to-cart/grouped.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/single-product/add-to-cart/simple.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/single-product/add-to-cart/variable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/single-product/add-to-cart/variation-add-to-cart-button.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/single-product/add-to-cart/variation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/single-product/meta.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/single-product/photoswipe.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/single-product/price.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/single-product/product-attributes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/single-product/product-image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/single-product/product-thumbnails.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/single-product/rating.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/single-product/related.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/single-product/review-meta.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/single-product/review-rating.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/single-product/review.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/single-product/sale-flash.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/single-product/share.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/single-product/short-description.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/single-product/stock.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/single-product/tabs/additional-information.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/single-product/tabs/description.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/single-product/tabs/tabs.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/single-product/title.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ritz/woocommerce/single-product/up-sells.php" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/wp-content/themes" value="fullWP" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectId" id="28eMSSDtHBHHIkg5GlVlnlXAYY4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/themes" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/themes" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/ritz/woocommerce" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/ritz/assets/userfiles" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/ritz/template-parts" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/ritz" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/themes/Database" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/ritz/assets/userfiles/" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/ritz/template-parts/parts/banners" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/ritz/assets/css/fonts/gotham-pro" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="845e25dd-c67d-40a8-a1ba-af7235b1b744" name="Default Changelist" comment="" />
+      <created>1651572603299</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651572603299</updated>
+      <workItem from="1651572605673" duration="350000" />
+      <workItem from="1651572981751" duration="999000" />
+      <workItem from="1651574385029" duration="237000" />
+      <workItem from="1651574645455" duration="750000" />
+      <workItem from="1651590516427" duration="712000" />
+      <workItem from="1651591252386" duration="10000" />
+      <workItem from="1651592227678" duration="407000" />
+      <workItem from="1651592774176" duration="522000" />
+      <workItem from="1651593325685" duration="1240000" />
+      <workItem from="1651594594236" duration="153000" />
+      <workItem from="1651594768643" duration="1421000" />
+      <workItem from="1651599297279" duration="1204000" />
+      <workItem from="1651729356486" duration="1302000" />
+      <workItem from="1651730693331" duration="3966000" />
+      <workItem from="1651736381627" duration="100000" />
+      <workItem from="1651736508944" duration="311000" />
+      <workItem from="1651736844838" duration="1026000" />
+      <workItem from="1651737911498" duration="404000" />
+      <workItem from="1651738342073" duration="341000" />
+      <workItem from="1651738767895" duration="14880000" />
+      <workItem from="1651760609421" duration="8854000" />
+      <workItem from="1651769504980" duration="955000" />
+      <workItem from="1651776870092" duration="378000" />
+      <workItem from="1651777274430" duration="2632000" />
+      <workItem from="1651779974877" duration="468000" />
+      <workItem from="1651815968544" duration="27993000" />
+      <workItem from="1651902345929" duration="10422000" />
+      <workItem from="1651925175066" duration="15805000" />
+      <workItem from="1651992189414" duration="476000" />
+      <workItem from="1652099644716" duration="9449000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1651739400924</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651739400924</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Create Home hero section">
+      <created>1651756451994</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651756451995</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Create header section">
+      <created>1651760578979</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651760578980</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Categories grid section">
+      <created>1651765095000</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651765095001</updated>
+    </task>
+    <task id="LOCAL-00005" summary="About us banner">
+      <created>1651767979288</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1651767979288</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Our favorites section">
+      <created>1651823358343</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651823358343</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Keep updated section">
+      <created>1651840178099</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1651840178099</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Newsletter section">
+      <created>1651843041790</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1651843041790</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Creating footer and fixing swiper overflow">
+      <created>1651850363165</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1651850363165</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Admin post settings">
+      <created>1651851459899</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1651851459900</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Admin post count">
+      <created>1651853276261</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1651853276261</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Admin posts views count">
+      <created>1651854380612</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1651854380612</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Woocommerce single product page">
+      <created>1651933587746</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1651933587746</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Adaptive web site">
+      <created>1651939203022</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1651939203025</updated>
+    </task>
+    <task id="LOCAL-00015" summary="README file and database sql file">
+      <created>1651940695901</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1651940695902</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Fixes">
+      <created>1651992581357</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1651992581357</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Full wordpress project with core &#10;Part 1. WP-ADMIN">
+      <created>1652103078446</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1652103078446</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Full Wordpress Repositories&#10;Part 2. WP-Includes and rest core files">
+      <created>1652105960407</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1652105960407</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Wp content / plugins / acf">
+      <created>1652111902198</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1652111902198</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Wp includes">
+      <created>1652117117988</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1652117117989</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/" />
+      <path value="$PROJECT_DIR$/wp-content/themes" />
+    </ignored-roots>
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Create Home hero section" />
+    <MESSAGE value="Create header section" />
+    <MESSAGE value="Categories grid section" />
+    <MESSAGE value="About us banner" />
+    <MESSAGE value="Our favorites section" />
+    <MESSAGE value="Keep updated section" />
+    <MESSAGE value="Newsletter section" />
+    <MESSAGE value="Creating footer" />
+    <MESSAGE value="Creating footer and fixing swiper overflow" />
+    <MESSAGE value="Admin post settings" />
+    <MESSAGE value="Admin post count" />
+    <MESSAGE value="Admin posts views count" />
+    <MESSAGE value="Woocommerce single product page" />
+    <MESSAGE value="Adaptive web site" />
+    <MESSAGE value="README file and database sql file" />
+    <MESSAGE value="Fixes" />
+    <MESSAGE value="Full Wordpress Repositories" />
+    <MESSAGE value="Full wordpress project with core &#10;Part 1. WP-ADMIN" />
+    <MESSAGE value="Full Wordpress Repositories&#10;Part 2. WP-Includes and rest core files" />
+    <MESSAGE value="Wp content / plugins" />
+    <MESSAGE value="Wp content / plugins / acf" />
+    <MESSAGE value="Wp includes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wp includes" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="553" y="378" key="#WordPress" timestamp="1651594619280">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="553" y="378" key="#WordPress/0.0.1440.900@0.0.1440.900" timestamp="1651594619280" />
+    <state x="184" y="109" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1651593564996">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="109" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1651593564996" />
+    <state x="323" y="133" width="912" height="683" key="CommitChangelistDialog2" timestamp="1652118670724">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="323" y="133" width="912" height="683" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1652118670724" />
+    <state x="379" y="154" key="CommitChangelistDialog2/72.25.1368.875@72.25.1368.875" timestamp="1652117927930" />
+    <state x="144" y="75" key="DiffContextDialog" timestamp="1651739271116">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="144" y="75" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1651739271116" />
+    <state x="529" y="373" key="Github.CreateGistDialog" timestamp="1651738213229">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="529" y="373" key="Github.CreateGistDialog/0.0.1440.900@0.0.1440.900" timestamp="1651738213229" />
+    <state x="520" y="321" key="Github.CreatePullRequestDialog" timestamp="1652117680983">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="520" y="321" key="Github.CreatePullRequestDialog/0.0.1440.900@0.0.1440.900" timestamp="1652117680983" />
+    <state x="594" y="351" key="Github.ShareDialog" timestamp="1651739445270">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="594" y="351" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1651739445270" />
+    <state x="540" y="377" key="NewPhpFileDialog" timestamp="1651852040994">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="540" y="377" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1651852040994" />
+    <state x="229" y="86" key="SettingsEditor" timestamp="1652118682883">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1652118682883" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1652118057637">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1652118057637" />
+    <state x="574" y="187" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1652099906904">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="574" y="187" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1440.900@0.0.1440.900" timestamp="1652099906904" />
+    <state x="473" y="353" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1652117407034">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="473" y="353" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1652117407034" />
+    <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.25.1368.875@72.25.1368.875" timestamp="1651851869427" />
+    <state x="394" y="181" width="668" height="566" key="find.popup" timestamp="1651992541367">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="394" y="181" width="668" height="566" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1651992541367" />
+    <state x="491" y="313" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1652117963564">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="491" y="313" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1440.900@0.0.1440.900" timestamp="1652117963564" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1651940112267">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1651940112267" />
+  </component>
+</project>
