@@ -1,0 +1,78 @@
+2022-05-05T08:41:54+00:00 CRITICAL syntax error, unexpected 'print_r' (T_STRING) in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/template-parts/pages/home/_home-hero.php on line 12
+
+2022-05-05T08:41:55+00:00 CRITICAL syntax error, unexpected 'print_r' (T_STRING) in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/template-parts/pages/home/_home-hero.php on line 12
+
+2022-05-05T10:22:45+00:00 CRITICAL syntax error, unexpected 'print_r' (T_STRING) in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/template-parts/pages/home/_home-hero.php on line 17
+
+2022-05-05T10:22:51+00:00 CRITICAL syntax error, unexpected ',' in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/template-parts/pages/home/_home-hero.php on line 16
+
+2022-05-05T10:31:39+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/template-parts/pages/home/_home-hero.php on line 38
+
+2022-05-05T10:40:02+00:00 CRITICAL syntax error, unexpected ')' in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/template-parts/pages/home/_home-hero.php on line 33
+
+2022-05-05T10:42:00+00:00 CRITICAL syntax error, unexpected ')' in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/template-parts/pages/home/_home-hero.php on line 34
+
+2022-05-05T10:43:25+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/template-parts/pages/home/_home-hero.php on line 35
+
+2022-05-05T10:43:52+00:00 CRITICAL syntax error, unexpected ')', expecting ';' in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/template-parts/pages/home/_home-hero.php on line 33
+
+2022-05-05T10:44:36+00:00 CRITICAL syntax error, unexpected ')' in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/template-parts/pages/home/_home-hero.php on line 33
+
+2022-05-05T10:50:07+00:00 CRITICAL syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting ';' or ',' in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/template-parts/pages/home/_home-hero.php on line 36
+
+2022-05-05T14:41:32+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/template-parts/pages/home/_home-categories.php on line 58
+
+2022-05-05T14:41:44+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/template-parts/pages/home/_home-categories.php on line 58
+
+2022-05-05T14:48:26+00:00 CRITICAL syntax error, unexpected 'print_r' (T_STRING) in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/template-parts/pages/home/_home-categories.php on line 12
+
+2022-05-05T14:53:45+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/template-parts/pages/home/_home-categories.php on line 69
+
+2022-05-05T14:56:24+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/template-parts/pages/home/_home-categories.php on line 45
+
+2022-05-05T14:56:29+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/template-parts/pages/home/_home-categories.php on line 45
+
+2022-05-05T18:59:52+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/inc/_functions.php on line 188
+
+2022-05-05T18:59:52+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/inc/_functions.php on line 188
+
+2022-05-05T18:59:52+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/inc/_functions.php on line 188
+
+2022-05-05T18:59:53+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/inc/_functions.php on line 188
+
+2022-05-05T19:05:47+00:00 CRITICAL Uncaught Error: Call to undefined function ritz_post_thumbnail() in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/template-parts/content-page.php:17
+Stack trace:
+#0 /Users/rekki/htdocs/ritz/wp-includes/template.php(772): require()
+#1 /Users/rekki/htdocs/ritz/wp-includes/template.php(716): load_template('/Users/rekki/ht...', false, Array)
+#2 /Users/rekki/htdocs/ritz/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/rekki/htdocs/ritz/wp-content/themes/ritz/page.php(24): get_template_part('template-parts/...', 'page')
+#4 /Users/rekki/htdocs/ritz/wp-includes/template-loader.php(106): include('/Users/rekki/ht...')
+#5 /Users/rekki/htdocs/ritz/wp-blog-header.php(19): require_once('/Users/rekki/ht...')
+#6 /Users/rekki/htdocs/ritz/index.php(17): require('/Users/rekki/ht...')
+#7 {main}
+  thrown in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/template-parts/content-page.php on line 17
+
+2022-05-05T19:06:27+00:00 CRITICAL Uncaught Error: Call to undefined function ritz_post_thumbnail() in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/template-parts/content-page.php:17
+Stack trace:
+#0 /Users/rekki/htdocs/ritz/wp-includes/template.php(772): require()
+#1 /Users/rekki/htdocs/ritz/wp-includes/template.php(716): load_template('/Users/rekki/ht...', false, Array)
+#2 /Users/rekki/htdocs/ritz/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/rekki/htdocs/ritz/wp-content/themes/ritz/page.php(24): get_template_part('template-parts/...', 'page')
+#4 /Users/rekki/htdocs/ritz/wp-includes/template-loader.php(106): include('/Users/rekki/ht...')
+#5 /Users/rekki/htdocs/ritz/wp-blog-header.php(19): require_once('/Users/rekki/ht...')
+#6 /Users/rekki/htdocs/ritz/index.php(17): require('/Users/rekki/ht...')
+#7 {main}
+  thrown in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/template-parts/content-page.php on line 17
+
+2022-05-05T19:07:32+00:00 CRITICAL Uncaught Error: Call to undefined function ritz_post_thumbnail() in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/template-parts/content-page.php:17
+Stack trace:
+#0 /Users/rekki/htdocs/ritz/wp-includes/template.php(772): require()
+#1 /Users/rekki/htdocs/ritz/wp-includes/template.php(716): load_template('/Users/rekki/ht...', false, Array)
+#2 /Users/rekki/htdocs/ritz/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/rekki/htdocs/ritz/wp-content/themes/ritz/page.php(24): get_template_part('template-parts/...', 'page')
+#4 /Users/rekki/htdocs/ritz/wp-includes/template-loader.php(106): include('/Users/rekki/ht...')
+#5 /Users/rekki/htdocs/ritz/wp-blog-header.php(19): require_once('/Users/rekki/ht...')
+#6 /Users/rekki/htdocs/ritz/index.php(17): require('/Users/rekki/ht...')
+#7 {main}
+  thrown in /Users/rekki/htdocs/ritz/wp-content/themes/ritz/template-parts/content-page.php on line 17
+

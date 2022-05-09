@@ -1,0 +1,53 @@
+/**
+ * css
+ */
+@import url('../css/plugins/font-awesome.css');
+@import url('../css/plugins/swiper.min.css');
+@import url('../css/plugins/jquery.fancybox.css');
+
+/**
+ * Variables
+ */
+@import "base/variables";
+
+/**
+ * Mixins
+ */
+@import "base/mixins";
+
+/**
+ * Global
+ */
+@import "base/fonts";
+@import "base/normalize";
+@import "base/utilities";
+@import "base/base";
+
+/**
+ * Modules
+ */
+@import "modules/btn";
+@import "modules/form";
+@import "modules/swiper";
+@import "modules/text";
+
+/**
+ * Content
+ */
+@import "layout/header";
+@import "layout/main";
+@import "layout/footer";
+@import "layout/sections/background";
+@import "layout/sections/banner_about_us";
+@import "layout/sections/banner-shop-favorites";
+@import "layout/sections/banner-keep-updated";
+@import "layout/sections/banner-newsletter";
+@import "layout/sections/related";
+/**
+ * Pages
+ */
+
+@import "pages/404";
+@import "pages/home";
+
+@import "pages/product";
